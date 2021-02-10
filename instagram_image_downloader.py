@@ -31,6 +31,8 @@ driver.find_element_by_name('username').send_keys(username)
 driver.find_element_by_name('password').send_keys(userpw)
 driver.find_element_by_name('password').send_keys(Keys.ENTER)
 driver.implicitly_wait(5)
+
+# '나중에 하기' 지우기
 driver.find_element_by_class_name('aOOlW.HoLwm').click()
 driver.implicitly_wait(5)
 
