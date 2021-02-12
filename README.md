@@ -6,12 +6,14 @@ This program takes an tag, crawling times, download times from user.
 
 It will search for the first one of the tag, crawl by the crawling times, and download images by the downlod times.
 
-Notes 
-crawling time : receiving image count
-1~2 -> 33 
-3+ -> 33 + 12(n-2)
+Notes  
+crawling time : receiving image count  
+1~2 -> 33  
+3+ -> 33 + 12(n-2)  
+
 
 <hr>
+
 
 ## Settings
 
@@ -47,11 +49,13 @@ In `instagram_image_downloader.py`, line 15, when you loads a driver, put chrome
 
 <hr>
 
+
 ## Run
 
 If you done for settings, now you can run the program.
 
 `python3 instagram_image_downloader.py`
+
 
 ### Inputs
 
