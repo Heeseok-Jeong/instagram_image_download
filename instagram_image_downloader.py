@@ -8,8 +8,8 @@ import os
 
 # 정보 입력 받기 
 hashTag = input("Input a tag to search : ")
-scroll_time = int(input("Input scroll times : "))
-download_time = int(input("Input download times : "))
+scroll_time = int(input("Input scroll times (at least 1) : "))
+download_time = int(input("Input download times (at least 1) : "))
 
 # driver load
 driver = wd.Chrome(executable_path='/usr/local/bin/chromedriver')
@@ -55,7 +55,7 @@ for i in range(0, scroll_time):
     insta = soup.select('.v1Nh3.kIKUG._bz0w')
 
     for i in insta:
-        print('https://www.instagram.com' + i.a['href'])
+        # print('https://www.instagram.com' + i.a['href'])
         imgUrl = i.select_one('.KL4Bh').img['src']
         imglist.append(imgUrl)
         imglist = list(set(imglist))
@@ -87,5 +87,7 @@ for i in range(0, download_time):
 
     n += 1
     del resp
+
+print(f"\n{download_time} images downloaded to img/{hashTag}/")
 
 driver.close()
