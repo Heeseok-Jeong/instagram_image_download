@@ -1,4 +1,4 @@
-# instagram_image_downloader
+# instagram_image_download
 
 Download images you want with tags in Instagram
 
@@ -19,7 +19,7 @@ crawling time : receiving image count
 
 ### 1. Clone this repository
 
-`git clone https://github.com/Heeseok-Jeong/instagram_image_downloader`
+`git clone https://github.com/Heeseok-Jeong/instagram_image_download`
 
 ### 3. Make an user Instagram information file
 
@@ -44,7 +44,7 @@ Make sure to match this program's version with your chrome browser.
 
 #### Adaption
 
-In `instagram_image_downloader.py`, line 15, when you loads a driver, put chromedriver path to executable_path.
+In `instagram_image_download.py`, line 15, when you loads a driver, put chromedriver path to executable_path.
 
 
 <hr>
@@ -54,7 +54,7 @@ In `instagram_image_downloader.py`, line 15, when you loads a driver, put chrome
 
 If you done for settings, now you can run the program.
 
-`python3 instagram_image_downloader.py`
+`python3 instagram_image_download.py`
 
 
 ### Inputs
