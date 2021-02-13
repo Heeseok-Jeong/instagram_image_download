@@ -6,8 +6,8 @@ This program takes an tag, crawling times, download times from user.
 
 It will search for the first one of the tag, crawl by the crawling times, and download images by the downlod times.
 
-Notes  
-crawling time : receiving image count  
+*Notes  
+crawling time -> receiving image count  
 1~2 -> 33  
 3+ -> 33 + 12(n-2)  
 
